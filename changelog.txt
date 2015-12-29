@@ -1,0 +1,4 @@
+WP-AJAX Tutorial Change Log
+
+December 28, 2015 - version 1.0
+* Initial version
