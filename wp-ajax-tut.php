@@ -128,7 +128,7 @@ class WP_AJAX_Tut {
 			wp_enqueue_script( 'wp_ajax_tut_frontend_script', WP_AJAX_TUT_PLUGIN_URL . 'assets/js/wp-ajax-tut-frontend.js', array( 'jquery' ), WP_AJAX_TUT_VERSION, true );
 			
 			/**
-			 * The big difference here is the ajax_url element; we need to make it
+			 * The big difference here is the ajaxurl element; we need to make it
 			 * available on the frontend because WordPress does not do this itself
 			 */
 			wp_localize_script( 'wp_ajax_tut_frontend_script', 'wp_ajax_tut_frontend', array(
